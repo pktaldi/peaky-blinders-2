@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header-menu{
+    display: flex;
+    gap: 15px;
+}
+body {
+    background-color: rgb(255, 247, 237);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(255, 247, 237);
+}
+#introducao {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(240, 219, 192);
+}
+#texto-intro{
+    padding: 30px;
+}
+#capa{
+    padding: 70px;
+}
+#capa img {
+    width: 500px;
+    height: 300px;
+}
+.maior {
+    color: brown;
+    text-transform: uppercase;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+#botoes-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
