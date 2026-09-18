@@ -8,7 +8,7 @@
     gap: 15px;
 }
 body {
-    background-color: rgb(255, 247, 237);
+    background-color: antiquewhite;
 }
 header {
     display: flex;
@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 20px;
-    background-color: rgb(255, 247, 237);
+    background-color: antiquewhite;
 }
 #introducao {
     display: flex;
@@ -53,4 +53,55 @@ header {
     justify-content: space-evenly;
 
 }
-
+#meio {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+#topicosmei{
+    background-color: antiquewhite;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.topicos {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.tituloTopico{
+    padding: 10px;
+}
+#menor{
+    padding: 2px;
+}
+#baixo {
+    background-color: rgb(240, 219, 192);
+}
+#tituloEsubtitulo {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(240, 219, 192);
+}
+.baixo {
+    padding: 5px;
+}
+#fim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: rgb(231, 189, 133);
+    padding: 15px;
+}
