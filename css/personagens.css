@@ -7,6 +7,11 @@
     display: flex;
     gap: 15px;
 }
+#header-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
 body {
     background-color: antiquewhite;
 }

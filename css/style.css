@@ -3,9 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-#header-menu{
+.header-menu{
     display: flex;
     gap: 15px;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 body {
     background-color: antiquewhite;
@@ -51,7 +56,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+}
+#botoes-intro a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 #meio {
     display: flex;
@@ -91,6 +100,11 @@ header {
     flex-wrap: nowrap;
     align-items: center;
     background-color: rgb(240, 219, 192);
+}
+#tituloEsubtitulo a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 .baixo {
     padding: 5px;
