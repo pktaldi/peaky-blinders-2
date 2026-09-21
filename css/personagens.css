@@ -3,3 +3,84 @@
     margin: 0;
     box-sizing: border-box;
 }
+#header-menu{
+    display: flex;
+    gap: 15px;
+}
+body {
+    background-color: antiquewhite;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+#introducao {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    background-color: rgb(240, 219, 192);
+}
+#texto-intro{
+    padding: 30px;
+}
+.maior {
+    color: brown;
+    text-transform: uppercase;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-galeria{
+    padding: 40px;
+}
+#galeria section {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.personagens {
+    flex: 1;
+    background-color: rgb(240, 219, 192);
+    width: 300px;
+    text-align: center;
+}
+.personagens p{
+    margin: 20px;
+}
+.personagens img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.sec-personagens{
+    padding: 15px;
+}
+
+
+#menor{
+    padding: 2px;
+}
+#fim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: rgb(231, 189, 133);
+    padding: 15px;
+}
