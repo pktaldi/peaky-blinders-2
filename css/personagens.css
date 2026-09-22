@@ -19,7 +19,6 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    align-content: center;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
@@ -37,7 +36,6 @@ header {
 }
 #introducao {
     display: flex;
-    align-content: center;
     align-items: center;
     padding: 10px;
     flex-wrap: nowrap;
@@ -95,7 +93,6 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
     flex-wrap: nowrap;
     background-color: #333;
     padding: 15px;
