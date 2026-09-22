@@ -13,7 +13,8 @@
     font-weight: bold;
 }
 body {
-    background-color: antiquewhite;
+    background-color: #1A1A1D;
+    color: #E0E0E0;
 }
 header {
     display: flex;
@@ -22,10 +23,10 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 20px;
-    background-color: antiquewhite;
+    background-color: #1A1A1D;
 }
 .botaom{
-    background-color: rgb(240, 219, 192);
+    background-color: #C5A059;
     padding: 7px;
     border-radius: 20px;
 }
@@ -42,7 +43,7 @@ header {
     flex-wrap: nowrap;
     justify-content: flex-end;
     flex-direction: row-reverse;
-    background-color: rgb(240, 219, 192);
+    background-color: #2A2A2E;
 }
 #texto-intro{
     padding: 30px;
@@ -66,7 +67,8 @@ header {
 }
 .personagens {
     flex: 1;
-    background-color: rgb(240, 219, 192);
+    background-color: #2A2A2E;
+    border-radius: 30px;
     width: 300px;
     text-align: center;
 }
@@ -78,6 +80,8 @@ header {
     height: 350px;
     display: block;
     object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     margin-bottom: 30px;
 }
 .sec-personagens{
@@ -93,6 +97,18 @@ header {
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    background-color: rgb(231, 189, 133);
+    background-color: #333;
     padding: 15px;
+}
+.fim-bts{
+    display: flex;
+    flex-direction: row;
+    background-color: #C5A059;
+    border-radius: 15px;
+    padding: 7px;
+}
+.fim-bts a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }

@@ -8,7 +8,7 @@
     gap: 15px;
 }
 .botaom{
-    background-color: rgb(240, 219, 192);
+    background-color: #C5A059;
     padding: 7px;
     border-radius: 20px;
 }
@@ -16,19 +16,23 @@
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    background-color: #C5A059;
 }
 .botaoi{
     background-color: antiquewhite;
     padding: 7px;
     border-radius: 20px;
+    background-color: #C5A059;
 }
 .botaoi a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    background-color: #C5A059;
 }
 body {
-    background-color: antiquewhite;
+    background-color: #1A1A1D;
+    color: #E0E0E0;
 }
 header {
     display: flex;
@@ -37,7 +41,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 20px;
-    background-color: antiquewhite;
+    background-color: #1A1A1D;
 }
 #introducao {
     display: flex;
@@ -47,7 +51,7 @@ header {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: rgb(240, 219, 192);
+    background-color: #2A2A2E;
 }
 #texto-intro{
     padding: 30px;
@@ -81,10 +85,10 @@ header {
     display: flex;
     margin: 50px;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: #1A1A1D;
 }
 #topicosmei{
-    background-color: antiquewhite;
+    background-color: #1A1A1D;
     display: flex;
     margin: 50px;
     align-items: center;
@@ -105,20 +109,17 @@ header {
 #menor{
     padding: 2px;
 }
-#baixo {
-    background-color: rgb(240, 219, 192);
-}
 #tituloEsubtitulo {
     padding: 60px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    background-color: rgb(240, 219, 192);
+    background-color: #2A2A2E;
 }
 #tituloEsubtitulo a {
     text-decoration: none;
-    color: #333;
+    color: #C5A059;
     font-weight: bold;
 }
 .baixo {
@@ -131,6 +132,18 @@ header {
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    background-color: rgb(231, 189, 133);
+    background-color: #333;
     padding: 15px;
+}
+.fim-bts{
+    display: flex;
+    flex-direction: row;
+    background-color: #C5A059;
+    border-radius: 15px;
+    padding: 7px;
+}
+.fim-bts a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
