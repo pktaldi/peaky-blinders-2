@@ -24,6 +24,16 @@ header {
     margin: 20px;
     background-color: antiquewhite;
 }
+.botaom{
+    background-color: rgb(240, 219, 192);
+    padding: 7px;
+    border-radius: 20px;
+}
+.botaom a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
 #introducao {
     display: flex;
     align-content: center;
@@ -45,7 +55,6 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 #titulo-galeria{
     padding: 40px;
 }
@@ -74,8 +83,6 @@ header {
 .sec-personagens{
     padding: 15px;
 }
-
-
 #menor{
     padding: 2px;
 }

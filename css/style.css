@@ -7,7 +7,22 @@
     display: flex;
     gap: 15px;
 }
-.menu a {
+.botaom{
+    background-color: rgb(240, 219, 192);
+    padding: 7px;
+    border-radius: 20px;
+}
+.botaom a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.botaoi{
+    background-color: antiquewhite;
+    padding: 7px;
+    border-radius: 20px;
+}
+.botaoi a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
