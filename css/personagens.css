@@ -100,14 +100,14 @@ header {
     background-color: #333;
     padding: 15px;
 }
-.fim-bts{
+#fim-bts{
     display: flex;
     flex-direction: row;
     background-color: #C5A059;
     border-radius: 15px;
     padding: 7px;
 }
-.fim-bts a{
+#fim-bts a{
     text-decoration: none;
     color: #333;
     font-weight: bold;
