@@ -1,5 +1,20 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #1A1A1D;
+}
+
+#header-menu {
+    display: flex;
+    gap: 15px;
 }
