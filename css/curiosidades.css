@@ -3,18 +3,132 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+#header-menu{
+    display: flex;
+    gap: 15px;
+}
+.botaom{
+    background-color: #C5A059;
+    padding: 7px;
+    border-radius: 20px;
+}
+.botaom a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #C5A059;
+}
+body {
+    background-color: #1A1A1D;
+    color: #E0E0E0;
+}
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     margin: 20px;
     background-color: #1A1A1D;
 }
-
-#header-menu {
+#introducao {
     display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    background-color: #2A2A2E;
+}
+#texto-intro{
+    padding: 30px;
+}
+.maior {
+    color: brown;
+    text-transform: uppercase;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+#curiosidades {
+    background-color: #2A2A2E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 50px;
+}
+#capa img {
+    width: 530px; 
+    border-radius: 20px; 
+}
+#conteudo-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.cabecalho-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+.cabecalho-cards p {
+    color: brown;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cabecalho-cards h2 {
+    color: #E0E0E0;
+    font-size: 24px;
+}
+.card-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #333; 
+    border-radius: 12px; 
+    padding: 20px; 
+    align-items: flex-start; 
+    gap: 20px; 
+}
+.numero h2 {
+    color: #E0E0E0;
+    font-size: 28px;
+}
+.texto-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+.texto-card h3 {
+    color: brown;
+    font-size: 18px;
+}
+.texto-card p {
+    color: #E0E0E0;
+    font-size: 14px;
+    
+}
+#fim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #333;
+    padding: 15px;
+}
+#fim-bts {
+    display: flex;
+    flex-direction: row;
     gap: 15px;
+}
+#fim-bts a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #C5A059;
+    border-radius: 15px;
+    padding: 10px;
 }
